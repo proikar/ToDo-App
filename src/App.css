@@ -1,0 +1,23 @@
+.tasks-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .settings-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .settings-container h1 {
+    margin-bottom: 20px;
+  }
+  
+  .settings-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  

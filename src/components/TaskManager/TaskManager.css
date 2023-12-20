@@ -1,0 +1,148 @@
+.task-manager-container {
+  width: 100%;
+  max-width: 736px;
+  margin: 0 auto;
+  margin-top: 90px;
+  padding: 0 1rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.header > div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header p {
+  color: #4EA8DE;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.textPurple {
+  color: #8284FA;
+}
+
+.header span {
+  background: #333333;
+  color: #D9D9D9;
+  padding: 3px 9px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.newTaskForm {
+  display: flex;
+  gap: 8px;
+}
+
+.newTaskForm input {
+  height: 50px;
+  flex: 1;
+  color: #fff;
+  background: #262626;
+  border: 1px solid #0D0D0D;
+  border-radius: 8px;
+  padding: 0 16px;
+  font-size: 16px;
+}
+
+.newTaskForm input::placeholder {
+  color: #808080;
+}
+
+.newTaskForm button {
+  height: 50px;
+  padding: 0 16px;
+  background: #1E6F9F;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.task {
+  width: 100%;
+  background: #262626;
+  border: 1px solid #333333;
+  padding: 16px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.task p {
+  font-size: 14px;
+  line-height: 19px;
+  color: #F2F2F2;
+  margin-right: auto;
+}
+
+.task p.textCompleted {
+  color: #808080;
+  text-decoration: line-through;
+}
+
+.checkContainer {
+  width: 18px;
+  height: 18px;
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.checkContainer div {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 2px solid #4EA8DE;
+  position: absolute;
+}
+
+.checkContainer svg {
+  width: 100%;
+  height: 100%;
+  color: #5E60CE;
+  position: absolute;
+}
+
+.deleteButton {
+  background: none;
+  border: none;
+  color: #808080;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.8s ease-in-out;
+}

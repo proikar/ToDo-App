@@ -1,0 +1,35 @@
+.registration-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 50px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  background-color: #191919;
+  transition: transform 0.3s ease-in-out;
+  border: solid 1px
+}
+
+.registration-container:hover {
+  transform: scale(1.02);
+}
+
+.btn {
+  margin-top: 15px;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.btn-primary {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-primary:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+}
+
+h2 {
+  color: #007bff;
+  font-weight: bold;
+}
